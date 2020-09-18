@@ -4,17 +4,536 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<meta description>
+	<title>MartPlace</title>
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
+
 </head>
 
 <body>
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="header__top-inner">
+					<div class="header__logo">
+						<a class="header__logo-link" href="#">
+							<img class="logo" src="images/logo.png" alt="logo">
+						</a>
+					</div>
+					<div class="header__box">
+						<a class="header__btn header__btn-become" href="">
+							Become a Seller
+						</a>
+					</div>
+					<div class="header__users-info">
+						<a class="notification header__curcle active lnr-alarm" href="#"><span>25</span></a>
+						<a class="message header__curcle active lnr-envelope" href="#"><span>6</span></a>
+						<a class="basket header__curcle active lnr-cart" href="#"><span>2</span></a>
+						<a class="header__users-author" href="#">
+							<div class="avatar" style="background-image: url(images/content/user.jpg);">
+							</div>
+							<div class="header__users-status">
+								<a class="header__users-name" href="#">Taofiq Hakim</a>
+								<div class="header__users-price">$20.45</div>
+							</div>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="header__menu">
+			<div class="container">
+				<div class="menu">
+					<nav class="menu__list">
+						<ul class="menu__link">
+							<li>
+								<a href="#">HOME</a>
+							</li>
+							<li>
+								<a href="#">all products</a>
+							</li>
+							<li>
+								<a href="#">wordpress</a>
+							</li>
+							<li>
+								<a href="#">festures</a>
+							</li>
+							<li>
+								<a href="#">Pages</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__menu-form">
+						<form>
+							<input type="text" placeholder="Search product here..." required>
+							<button type="submit">
+								<img src="images/icons/header.png" alt="">
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="product">
+			<div class="container">
+				<div class="product__inner">
+					<div class="product__inner-title">
+						Create Your Own
+					</div>
+					<div class="product__inner-subtitle">
+						Digital Product Marketplace
+					</div>
+					<div class="product__inner-text">
+						MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+					</div>
+					<div class="product__inner-btn">
+						<button type="button" data-filter=".category-new">View All Products</button>
+						<button type="button" data-filter=".category-popular">Popular Products</button>
+					</div>
+					<div class="product__search">
+						<div class="product__search-2"></div>
+						<div class="product__search-3"></div>
+						<div class="product__form-box">
+							<form>
+								<input type="text" placeholder="Search your products..." required>
+								<select name="Categories" id="">
+									<option class="text-option" value="">All Categories</option>
+									<option value="">All Categories</option>
+									<option value="">All Categories</option>
+								</select>
+							</form>
+						</div>
+						<div class="product__search-btn">
+							<button type="button" data-filter=".category-popular">Search Now</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section class="function">
+			<div class="container">
+				<div class="function__inner">
+					<a class="inner__box" href="#">
+						<div class="inner__box-img best"></div>
+						<div class="inner__box-title">
+							Best UX Research
+						</div>
+						<div class="inner__box-text">
+							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+							the mattis, leo quam aliquet diam
+							congue is laoreet elit metus.
+						</div>
+					</a>
+					<a class="inner__box" href="#">
+						<div class="inner__box-img fully">
+
+						</div>
+						<div class="inner__box-title">
+							Fully Responsive
+						</div>
+						<div class="inner__box-text">
+							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+							the mattis, leo quam aliquet diam
+							congue is laoreet elit metus.
+						</div>
+					</a>
+					<a class="inner__box" href="#">
+						<div class="inner__box-img buy">
+
+						</div>
+						<div class="inner__box-title">
+							Buy & Sell Easily
+						</div>
+						<div class="inner__box-text">
+							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+							the mattis, leo quam aliquet diam
+							congue is laoreet elit metus.
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="container">
+				<div class="slider__inner">
+					<div class="slider__title">
+						<div class="slider__title-text">
+							Weekly Featured Products
+						</div>
+						<div class="slider__title-arrows">
+							<div class="slider__arrow lnr-chevron-left"></div>
+							<div class="slider__arrow lnr-chevron-right"></div>
+						</div>
+					</div>
+					<div class="slider__slider-inner">
+						<div class="slider__slider">
+							<div class="slider__slider-img">
+								<img class="slider__slider-image" src="images/content/slider-img.jpeg" alt="#">
+							</div>
+							<div class="slider__slider-box">
+								<div class="slider__slider-title">
+									One Page Resume Template
+								</div>
+								<div class="slider__slider-names">
+									<span class="Aazz">AazzTech</span>
+									<span class="word">WordPress</span>
+								</div>
+								<div class="slider__slider-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+									leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+									scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+								</div>
+								<div class="slider__slider-link">
+									<a href="#">website</a>
+									<a href="#">plugin</a>
+									<a href="#">landing page</a>
+								</div>
+								<div class="slider__slider-fouter">
+									<div class="slider__slider-statistics">
+										<div class="slider-statistics__price">
+											<span>$10 - $50</span>
+										</div>
+										<div class="slider-statistics__likes lnr-heart">
+											<span>46</span>
+										</div>
+										<div class="slider-statistics__sales lnr-cart">
+											<span>634</span>
+										</div>
+									</div>
+									<div class="rate-star"></div>
+								</div>
+							</div>
+						</div>
+						<div class="slider__slider">
+							<div class="slider__slider-img">
+								<img class="slider__slider-image" src="../images/content/slider-img.jpeg" alt="#">
+							</div>
+							<div class="slider__slider-box">
+								<div class="slider__slider-title">
+									One Page Resume Template
+								</div>
+								<div class="slider__slider-names">
+									<span class="Aazz">AazzTech</span>
+									<span class="word">WordPress</span>
+								</div>
+								<div class="slider__slider-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+									leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+									scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+								</div>
+								<div class="slider__slider-link">
+									<a href="#">website</a>
+									<a href="#">plugin</a>
+									<a href="#">landing page</a>
+								</div>
+								<div class="slider__slider-fouter">
+									<div class="slider__slider-statistics">
+										<div class="slider-statistics__price">
+											<span>$10 - $50</span>
+										</div>
+										<div class="slider-statistics__likes lnr-heart">
+											<span>46</span>
+										</div>
+										<div class="slider-statistics__sales lnr-cart">
+											<span>634</span>
+										</div>
+									</div>
+									<div class="rate-star"></div>
+								</div>
+							</div>
+						</div>
+						<div class="slider__slider">
+							<div class="slider__slider-img">
+								<img class="slider__slider-image" src="../images/content/slider-img.jpeg" alt="#">
+							</div>
+							<div class="slider__slider-box">
+								<div class="slider__slider-title">
+									One Page Resume Template
+								</div>
+								<div class="slider__slider-names">
+									<span class="Aazz">AazzTech</span>
+									<span class="word">WordPress</span>
+								</div>
+								<div class="slider__slider-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+									leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+									scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+								</div>
+								<div class="slider__slider-link">
+									<a href="#">website</a>
+									<a href="#">plugin</a>
+									<a href="#">landing page</a>
+								</div>
+								<div class="slider__slider-fouter">
+									<div class="slider__slider-statistics">
+										<div class="slider-statistics__price">
+											<span>$10 - $50</span>
+										</div>
+										<div class="slider-statistics__likes lnr-heart">
+											<span>46</span>
+										</div>
+										<div class="slider-statistics__sales lnr-cart">
+											<span>634</span>
+										</div>
+									</div>
+									<div class="rate-star"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="newest-products">
+			<div class="container">
+				<div class="newest-products__inner">
+					<div class="newest-products__title mini-title">
+						<div class="newest-products__title-text">
+							Newest Release Products
+						</div>
+						<div class="newest-products__title-burger">
+							<div class="newest-products__burger"></div>
+							Filter by:
+						</div>
+					</div>
+					<div class="newest-products__distribution">
+						<div class="distribution__inner-btn">
+							<button type="button" data-filter="plugins">Plugins</button>
+							<button type="button" data-filter=".category-wordpress">WordPress</button>
+							<button type="button" data-filter=".category-sitetemplate">Site Template</button>
+							<button type="button" data-filter=".category-psdtemplate">PSD Template</button>
+							<button type="button" data-filter=".category-joomla">Joomla</button>
+							<button type="button" data-filter=".category-userinterface">User Interface</button>
+							<button type="button" data-filter=".category-landingpage">Landing Page</button>
+							<button type="button" data-filter=".category-software">Software</button>
+						</div>
+					</div>
+					<div class="newest-products__inner-box">
+						<div class="newest-products__item mix category-wordpress category-new" data-order="1">
+							<div class="newest-products__item-images">
+								<div class="newest-products__item-img"
+									style="background-image: url(images/content/newest-products-item.jpg);">
+									<button class="newest-products__btn hover-img">More Info</button>
+									<button class="newest-products__btn">Live Demo</button>
+								</div>
+							</div>
+							<div class="newest-products__item-content">
+								<div class="newest-products__item-name">
+									<a class="newest-products__item-title" href="">
+										E-commerce Shopping Cart
+									</a>
+									<div class="newest-products__item-cotegory">
+										<a class="newest-products__item-link" href="#">
+											Theme-Valley
+										</a>
+										<a class="newest-products__item-" href="#">
+											Plugin
+										</a>
+									</div>
+								</div>
+								<div class="newest-products__item-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+									the mattis, leo quam aliquet congue.
+								</div>
+								<div class="newest-products__item-reviews">
+									<div class="newest-products__item-price">
+										$20
+									</div>
+									<div class="newest-products__item-likes lnr-heart">
+										90
+									</div>
+									<div class="rate-star"></div>
+									<div class="newest-products__item-sales lnr-cart">246</div>
+								</div>
+							</div>
+						</div>
+						<div class="newest-products__item mix category-sitetemplate category-new" data-order="2">
+							<a class="newest-products__item-img" href="#"
+								style="background-image: url(images/content/newest-products-item.jpg);"></a>
+							<div class="newest-products__item-content">
+								<div class="newest-products__item-name">
+									<a class="newest-products__item-title" href="">
+										E-commerce Shopping Cart
+									</a>
+									<div class="newest-products__item-cotegory">
+										<a class="newest-products__item-link" href="#">
+											Theme-Valley
+										</a>
+										<a class="newest-products__item-link" href="#">
+											Plugin
+										</a>
+									</div>
+								</div>
+								<div class="newest-products__item-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+									the mattis, leo quam aliquet congue.
+								</div>
+								<div class="newest-products__item-reviews">
+									<div class="newest-products__item-price">
+										$20
+									</div>
+									<div class="newest-products__item-likes lnr-heart">
+										90
+									</div>
+									<div class="rate-star"></div>
+									<div class="newest-products__item-sales lnr-cart">246</div>
+								</div>
+							</div>
+						</div>
+						<div class="newest-products__item mix category-landingpage category-new" data-order="3">
+							<a class="newest-products__item-img" href="#"
+								style="background-image: url(images/content/newest-products-item.jpg);"></a>
+							<div class="newest-products__item-content">
+								<div class="newest-products__item-name">
+									<a class="newest-products__item-title" href="">
+										E-commerce Shopping Cart
+									</a>
+									<div class="newest-products__item-cotegory">
+										<a class="newest-products__item-link" href="#">
+											Theme-Valley
+										</a>
+										<a class="newest-products__item-link" href="#">
+											Plugin
+										</a>
+									</div>
+								</div>
+								<div class="newest-products__item-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+									the mattis, leo quam aliquet congue.
+								</div>
+								<div class="newest-products__item-reviews">
+									<div class="newest-products__item-price">
+										$20
+									</div>
+									<div class="newest-products__item-likes lnr-heart">
+										90
+									</div>
+									<div class="rate-star"></div>
+									<div class="newest-products__item-sales lnr-cart">246</div>
+								</div>
+							</div>
+						</div>
+						<div class="newest-products__item mix category-wordpress category-new" data-order="4">
+							<a class="newest-products__item-img" href="#"
+								style="background-image: url(images/content/newest-products-item.jpg);"></a>
+							<div class="newest-products__item-content">
+								<div class="newest-products__item-name">
+									<a class="newest-products__item-title" href="">
+										E-commerce Shopping Cart
+									</a>
+									<div class="newest-products__item-cotegory">
+										<a class="newest-products__item-link" href="#">
+											Theme-Valley
+										</a>
+										<a class="newest-products__item-link" href="#">
+											Plugin
+										</a>
+									</div>
+								</div>
+								<div class="newest-products__item-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+									the mattis, leo quam aliquet congue.
+								</div>
+								<div class="newest-products__item-reviews">
+									<div class="newest-products__item-price">
+										$20
+									</div>
+									<div class="newest-products__item-likes lnr-heart">
+										90
+									</div>
+									<div class="rate-star"></div>
+									<div class="newest-products__item-sales lnr-cart">246</div>
+								</div>
+							</div>
+						</div>
+						<div class="newest-products__item mix category-sitetemplate category-new" data-order="5">
+							<a class="newest-products__item-img" href="#"
+								style="background-image: url(images/content/newest-products-item.jpg);"></a>
+							<div class="newest-products__item-content">
+								<div class="newest-products__item-name">
+									<a class="newest-products__item-title" href="">
+										E-commerce Shopping Cart
+									</a>
+									<div class="newest-products__item-cotegory">
+										<a class="newest-products__item-link" href="#">
+											Theme-Valley
+										</a>
+										<a class="newest-products__item-link" href="#">
+											Plugin
+										</a>
+									</div>
+								</div>
+								<div class="newest-products__item-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+									the mattis, leo quam aliquet congue.
+								</div>
+								<div class="newest-products__item-reviews">
+									<div class="newest-products__item-price">
+										$20
+									</div>
+									<div class="newest-products__item-likes lnr-heart">
+										90
+									</div>
+									<div class="rate-star"></div>
+									<div class="newest-products__item-sales lnr-cart">246</div>
+								</div>
+							</div>
+						</div>
+						<div class="newest-products__item mix category-landingpage category-new" data-order="6">
+							<a class="newest-products__item-img" href="#"
+								style="background-image: url(images/content/newest-products-item.jpg);"></a>
+							<div class="newest-products__item-content">
+								<div class="newest-products__item-name">
+									<a class="newest-products__item-title" href="">
+										E-commerce Shopping Cart
+									</a>
+									<div class="newest-products__item-cotegory">
+										<a class="newest-products__item-link" href="#">
+											Theme-Valley
+										</a>
+										<a class="newest-products__item-link" href="#">
+											Plugin
+										</a>
+									</div>
+								</div>
+								<div class="newest-products__item-text">
+									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+									the mattis, leo quam aliquet congue.
+								</div>
+								<div class="newest-products__item-reviews">
+									<div class="newest-products__item-price">
+										$20
+									</div>
+									<div class="newest-products__item-likes lnr-heart">
+										90
+									</div>
+									<div class="rate-star"></div>
+									<div class="newest-products__item-sales lnr-cart">246</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="newest-products__bottom-btn">
+						<button type="button" data-filter=".category-new">All New Products</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/libs.min.js"></script>
-	<script src="js/main.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
