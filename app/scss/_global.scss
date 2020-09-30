@@ -9,7 +9,8 @@ html {
 }
 
 body {
-	font-family: "Quicksand-Regular", sans-serif;
+	font-family: "Quicksand";
+	color: #555555;
 }
 
 a {
@@ -17,26 +18,10 @@ a {
 	text-decoration: none;
 }
 
-ul,
-li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
 .container {
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0px 15px;
-}
-
-.title {
-	text-align: center;
-	color: #fff;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 60px;
-	margin-bottom: 30px;
 }
 
 .slick-list {
